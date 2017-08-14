@@ -1,0 +1,14 @@
+## Requirements for local development
+
+# Package deps from setup.py
+-e .
+
+# Tests
+pytest
+factory_boy
+codecov
+coverage
+pytest-cov
+
+# Tools
+ipython
