@@ -7,7 +7,7 @@ description = long_description = "Python client for Socialhome."
 
 setup(
     name="shcli",
-    version="0.1.3",
+    version="0.1.4",
     description=description,
     long_description=long_description,
     author="Jason Robinson",

@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.4] - 2017-08-14
+
+No functional changes, release to fix packaging issues.
+
 ## [0.1.3] - 2017-08-14
 
 ### Added
