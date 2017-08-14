@@ -12,25 +12,42 @@ Python client for [Socialhome](https://socialhome.network).
 
 Interact with your Socialhome account using the `shcli` client. This library will provide a CLI utility and a Python API. 
 
-## Status
-
-Alpha.
-
 ## Installation
 
     pip install shcli
     
 ## Usage
 
+Tool help:
+
+    shcli --help
+
 ### Creating content
   
+#### Tool
+
+    shcli create <domain.tld> <token> -t <text> -v <visibility>
+    
+For example:
+
+    shcli create socialhome.network 123456789abcdefg -t 'Hello, World!' \
+        -v public
+
+#### Python API
+
     import shcli
     
-    shcli.create("socialhome domain", "api token", "text", "visibility")
+    shcli.create(<domain.tld>, <token>, <text>, <visibility>)
+    
+For example:
+
+    shcli.create(
+        "socialhome.network", "123456789abcdefg", "Hello, World!", "public"
+    )
   
 Visibility parameter can be one of `public`, `limited`, `site` or `self`.
 
-Returns the created `Content` object as JSON.
+Returns the created `Content` object as JSON or another response with possible error messages.
 
 ## License
 

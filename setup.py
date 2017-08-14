@@ -21,9 +21,15 @@ setup(
     packages=find_packages(),
     license="MIT",
     install_requires=[
-        "requests>=2.8.0",
+        "requests>=2.8.0,<3",
+        "click>=6,<7",
     ],
     include_package_data=True,
+    entry_points={
+        "console_scripts": [
+            "shcli = shcli.cli:shcli",
+        ]
+    },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Console",

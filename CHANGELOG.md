@@ -17,3 +17,7 @@
   Visibility parameter can be one of `public`, `limited`, `site` or `self`.
   
   Returns the created `Content` object as JSON.
+
+* Add command line script to use `create` command.
+
+  Type `shcli create --help` for usage.
