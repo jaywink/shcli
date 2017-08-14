@@ -18,12 +18,13 @@ setup(
     maintainer_email="mail@jasonrobinson.me",
     url="https://github.com/jaywink/shcli",
     download_url="https://github.com/jaywink/shcli/releases",
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests"]),
     license="MIT",
     install_requires=[
         "requests>=2.8.0,<3",
         "click>=6,<7",
     ],
+    python_requires=">=3.4",
     include_package_data=True,
     entry_points={
         "console_scripts": [

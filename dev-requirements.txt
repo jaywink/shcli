@@ -12,3 +12,6 @@ pytest-cov
 
 # Tools
 ipython
+
+# Packaging
+wheel
