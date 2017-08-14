@@ -49,6 +49,16 @@ Visibility parameter can be one of `public`, `limited`, `site` or `self`.
 
 Returns the created `Content` object as JSON or another response with possible error messages.
 
+## Development
+
+### Install for development
+
+    pip install -U -r dev-requirements.txt
+    
+### Running tests
+
+    py.test
+
 ## License
 
 [MIT](https://www.tldrlegal.com/l/mit)
