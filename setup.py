@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-from shcli import __version__
-
 
 description = long_description = "Python client for Socialhome."
 
 
 setup(
     name="shcli",
-    version=__version__,
+    version="0.1.3",
     description=description,
     long_description=long_description,
     author="Jason Robinson",
