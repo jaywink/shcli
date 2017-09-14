@@ -14,7 +14,14 @@ Interact with your Socialhome account using the `shcli` client. This library wil
 
 ## Installation
 
+### From PyPi
+
     pip install shcli
+    
+### As a Snap
+
+    # For example on Ubuntu. See https://snapcraft.io/ for support on other OS's.
+    sudo snap install shcli 
     
 ## Usage
 

@@ -1,0 +1,22 @@
+name: shcli
+version: '0.1.4'
+summary: Python client for Socialhome.
+description: |
+  Interact with your Socialhome account using the shcli client. Provides a CLI utility and Python API.
+
+grade: stable
+confinement: strict
+
+apps:
+  shcli:
+    command: bin/shcli
+    plugs:
+      - network
+    environment:
+      LC_ALL: C.UTF-8
+      LANG: C.UTF-8
+
+parts:
+  shcli:
+    plugin: python
+    source: .

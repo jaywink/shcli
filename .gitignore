@@ -47,3 +47,9 @@ docs/_build
 
 # LO lock file
 .~lock.*
+
+# Snaps
+prime/
+stage/
+*.snap
+snap/.snapcraft/
