@@ -72,4 +72,4 @@ Returns the created `Content` object as JSON or another response with possible e
 
 ## Author
 
-Jason Robinson / https://jasonrobinson.me / https://github.com/jaywink
+Jason Robinson / https://jasonrobinson.me / `@jaywink:federator.dev`

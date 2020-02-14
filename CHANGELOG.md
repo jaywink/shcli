@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0] - 2020-02-14
+
+Free up direct dependency upper versions.
+
+Drop support for Python 3.4 and Python 3.5.
+
 ## [0.1.4] - 2017-08-14
 
 No functional changes, release to fix packaging issues.
